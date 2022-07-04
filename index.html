@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="main.css">
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-grey">
+    <div class="bg-white d-flex align-items-center fixed-top shadow" style="min-height: 56px; z-index: index 5;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <!--search-->
+            <div class="col d-flex align-items-center">
+                <!--logo-->
+                <i class="fa-brands fa-facebook text-primary "style="font-size:3rem"></i>
+                <div class="input-group ms-2 ">
+                    <!--mobile-->
+                    <span class="input-group-prepend d-lg-none">
+                        <!--searchbar-->
+                        <div class="input-group-text bg-grey border-0 rounded-circle"style="min: height 40px;" >
+                            <i class="fa-solid fa-magnifying-glass  text-muted"></i>
+                           
+                        </div>
+                    </span>
+                    <!--Desktop-->
+                    <span class="input-group-prepend d-none d-lg-block">
+                        <!--searchbar-->
+                        <div class="input-group-text bg-grey border-0 rounded-pill"style="min: height 40px;min: width 230px;" >
+                            <i class="fa-solid fa-magnifying-glass me-2 text-muted"></i>
+                            <p class="m-0 text-muted">search Facebook</p>
+                        </div>
+                    </span>
+                </div>
+                
+            </div>
+            <!--navigation-->
+            <div class="col d-none d-lg-flex justify-content-center">
+                <!--home-->
+                <div class="mx-4 nav__btn nav__btn-active">
+                    <button class="btn px-4">
+                        <i class="fa-solid fa-house text-muted fs-4"></i>
+                    </button>
+                </div>
+                <!--market-->
+                <div class="mx-4 nav__btn ">
+                    <button class="btn px-4">
+                        <i class="fa-solid fa-store text-muted fs-4"></i>
+                    </button>
+                </div>
+                <!--group-->
+                <div class="mx-4 nav__btn ">
+                    <button class="btn px-4">
+                        <i class="fa-solid fa-users-line text-muted fs-4"></i>
+                    </button>
+                </div>
+                <!--gaming-->
+                <div class="mx-4 nav__btn ">
+                    <button class="btn px-4">
+                        <i class="fa-solid fa-gamepad text-muted fs-4"></i>
+                    </button>
+                </div>
+            </div>
+            <!--menus-->
+            <div class="col d-flex align-items-center justify-content-end">
+                <!--avatar-->
+                <div class="d-none d-xl-flex align-items-center justify-content-center">
+                    <img src="https://source.unsplash.com/collection/happy-people" alt="avatar"class="rounded-circle me-2"
+                    style="width:38px;height:38px;object-fit:cover;">
+                    <p class="m-0 ">Bibin</p>
+                </div>
+                <!--main menu-->
+                <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-grey rounded-circle"style="width:38px;height: 38px;object-fit:cover;">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <!--chat-->
+                <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-grey rounded-circle"style="width:38px;height: 38px;object-fit:cover;">
+                    <i class="fa-solid fa-comment"></i>
+                </div>
+                <!--notification-->
+                <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-grey rounded-circle"style="width:38px;height: 38px;object-fit:cover;">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <!--secondary menu-->
+                <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-grey rounded-circle"style="width:38px;height: 38px;object-fit:cover;">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--main content-->
+    <div class="container-fluid ">
+        <div class="row justify-content-evenly">
+            <!--sidebar-->
+            <div class="col-12 col-lg-3">
+                <div class="d-none d-xxl-block h-100 fixed-top overflow-hidden"style="max-width: 360px; width:100%;z-index: 4;">
+                <ul class="navbar-nav mt-4 ms-3 d-flex flex-column pb-5 mb-5"style="padding-top: 56px;">
+                    <!--top-->
+                    <!--avatar-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://source.unsplash.com/collection/happy-people"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p class="m-0">BI BI N</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--items1-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/tSXYIzZlfrS.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p class="m-0">Friends</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--items2-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/Im_0d7HFH4n.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p class="m-0">Groups</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--items3-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/0gH3vbvr8Ee.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p class="m-0">Pages</p>
+                            </div>
+                        </a>
+                    </li><!--items4-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p class="m-0">Market Place</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--items5-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p m-0>Watch</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--items6-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                            </div>
+                            <div>
+                                <p m-0>Memories</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--see more-->
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <i class="fa-solid fa-circle-chevron-down font-size-38px"
+                                class="rounded-circle" 
+                                alt="avatar"style="width:38px;height:38px;object-fit:cover"></i>
+                            </div>
+                            <div>
+                                <p m-0>see more</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!--shortcut-->
+                    <hr class="m-0">
+                    <!--heading-->
+                    <div class="d-flex align-items-center justify-content-between mt-2 text-muted">
+                        <h4 class="m-0 text-muted fs-6">Your Shortcuts</h4>
+                    </div>
+                    <!--terms and conditions-->
+                <div class="p-2 mt-5 ">
+                    <p class="text-muted f-7">Privacy  · Terms  · Advertising  · Ad choices   · Cookies  ·   · Meta © 2022</p>
+                </div>
+
+                </ul>
+                
+                </div>
+            </div>
+              <!--timeline-->
+              <div class="col-12 col-lg-6">
+                <div class="d-flex flex-column justify-content-center width-100 mx-auto" style="padding-top: 56px;max-width:680px;">
+                <!--stories-->
+                <div class="d-flex justify-content-between position-relative mt-5">
+                    <div class="mx-1 bg-white rounded story"style="width:6em;height:190px;">
+                        <img src="https://source.unsplash.com/collection/happy-people" alt="story-post"class="card-img-top"
+                        style="min-height: 120px;object-fit:cover;">
+                        <div class="d-flex align-items-center position-relative"style="min-height:65px;">
+                        <p class="mb-0 text-center fs-7 fw-bold">Create Story</p>
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <i class="fas fa-plus-circle fs-3 text-primary bg-white p-1 rounded-circle"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="rounded mx-1 story"type="button"style="width:6em;height:190px;">
+                    <img src="https://source.unsplash.com/random/1" alt=""class="card-img-top rounded"style="min-height:190px;object-fit:cover;">
+                    </div>
+                    <div class="rounded mx-1 story"type="button"style="width:6em;height:190px;">
+                        <img src="https://source.unsplash.com/random/2" alt=""class="card-img-top rounded"style="min-height:190px;object-fit:cover;">
+                        </div>
+                        <div class="rounded mx-1 story"type="button"style="width:6em;height:190px;">
+                            <img src="https://source.unsplash.com/random/3" alt=""class="card-img-top rounded"style="min-height:190px;object-fit:cover;">
+                            </div>
+                            <div class="rounded mx-1 story"type="button"style="width:6em;height:190px;">
+                                <img src="https://source.unsplash.com/random/4" alt=""class="card-img-top rounded"style="min-height:190px;object-fit:cover;">
+                                </div>
+                    
+                </div>
+                <!--create post-->
+                <div class="bg-white mt-3 p-3 rounded shadow">
+                    <!--avatar-->
+                    <div class="d-flex"type="button">
+                        <div class="p-1">
+                            <img src="https://source.unsplash.com/collection/happpy-peope" alt="avatar"class="me-2 rounded-circle"style="width:38px;height: 38px;object-fit:cover;">
+                        </div>
+                        <input type="text"class="form-control rounded-pill border-0 bg-grey "placeholder="What's on your mind, BI BI N?">
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row mt-3 ">
+                        <div class="d-flex align-items-center justify-content-center  rounded drop-down-item pe-5"type="button">
+                        <i class="fas fa-video me-3 text-danger"></i>
+                        <p class="m-1 text-muted">Live Video</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center  rounded drop-down-item pe-5 "type="button">
+                            <i class="fas fa-photo-video me-3 text-success"></i>
+                            <p class="m-0 text-muted">Photo/Video</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center  rounded drop-down-item "type="button">
+                                <i class="fas fa-smile me-3 text-warning"></i>
+                                <p class=" pe-2 m-0 text-muted">Feeling/Activity</p>
+                                </div>
+                    </div>
+                </div>
+                <!--create-room-->
+                <div class="bg-white mt-3 p-3 rounded border shadow justify-content-between d-flex position-relative">
+                    <div>
+                        <button class="btn rounded-pill btn-info">
+                            <i class="fas fa-video me-3"></i>Create Room
+                        </button>
+                    </div>
+                    <!--slidebar-->
+                    <div>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://source.unsplash.com/collection/random/1" alt="avatar"class="story rounded-circle me-2 d-none d-xxl-inline-block"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/2" alt="avatar"class="story rounded-circle me-2 d-none d-xxl-inline-block"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/3" alt="avatar"class="story rounded-circle me-2 d-none d-xxl-inline-block"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/4" alt="avatar"class="story rounded-circle me-2 d-none d-xxl-inline-block"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/5" alt="avatar"class="story rounded-circle me-2"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/6" alt="avatar"class="story rounded-circle me-2"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/7" alt="avatar"class="story rounded-circle me-2"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/8" alt="avatar"class="story rounded-circle me-2"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                            <img src="https://source.unsplash.com/collection/random/9" alt="avatar"class="story rounded-circle me-2"
+                            style="width: 38px;height: 38px;object-fit:cover;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--slidebar-->
+                    <!--slide-buttons-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    <!--slide-buttons-->
+                </div>
+
+                <!--post-->
+                <div class="bg-white p-4 rounded shadow mt-3">
+                    <!--auther-->
+                    <div class="d-flex justify-content-between">
+                        <!--avatar-->
+                        <div class="d-flex">
+                        <img src="https://source.unsplash.com/collection/random/12" alt=""class="rounded-circle me-2"
+                        style="width: 38px;height: 38px;object-fit:cover;">
+                            <div>
+                    <p class="m-0 fw-bold">BI BI N</p>
+                    <span class="text-muted f-7">July 3 at 17:11 pm</span>
+                </div>
+                </div>
+                <i class="fas fa-ellipsis-h "type="button" ></i>
+            </div>
+                    <!--post-content-->
+                    <div class="mt-3">
+                        <!--content-->
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae autem similique dolorem magnam! Quis sit doloremque voluptas, in consequatur nostrum quae temporibus eligendi obcaecati?
+
+                            </p>
+                            <img src="https://source.unsplash.com/collection/random/13" alt="post content"class="img-fluid">
+                        </div>
+                        <!--likes & comments-->
+                        <hr>
+                        <div d-flex>
+                            <img class="j1lvzwm4" height="18" role="presentation" 
+                            src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <p class="text-muted fs-6">you,praveen saji and 225 others</p>
+                        </div>
+                        <hr>
+                        <!--like comment and share-->
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-thumbs-up me-3"></i>
+                                <p>Likes</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-comments me-3"></i>
+                                <p>comments</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-share me-3"></i>
+                                <p>share</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted mt-3">
+                                <p>View Previous Comments</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted mt-3">
+                                <p>Most Relevent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded shadow mt-3">
+                    <!--auther-->
+                    <div class="d-flex justify-content-between">
+                        <!--avatar-->
+                        <div class="d-flex">
+                        <img src="https://source.unsplash.com/collection/random/13" alt=""class="rounded-circle me-2"
+                        style="width: 38px;height: 38px;object-fit:cover;">
+                            <div>
+                    <p class="m-0 fw-bold">Amal Dev</p>
+                    <span class="text-muted f-7">July 1 at 15:08 pm</span>
+                </div>
+                </div>
+                <i class="fas fa-ellipsis-h "type="button" ></i>
+            </div>
+                    <!--post-content-->
+                    <div class="mt-3">
+                        <!--content-->
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae autem similique dolorem magnam! Quis sit doloremque voluptas, in consequatur nostrum quae temporibus eligendi obcaecati?
+
+                            </p>
+                            <img src="https://source.unsplash.com/collection/random/14" alt="post content"class="img-fluid">
+                        </div>
+                        <!--likes & comments-->
+                        <hr>
+                        <div class="d-flex">
+                            <img class="j1lvzwm4" height="18" role="presentation" 
+                            src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <p class="text-muted fs-6">you,Anu Gopi and 20 others</p>
+                        </div>
+                        <hr>
+                        <!--like comment and share-->
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-thumbs-up me-3"></i>
+                                <p>Likes</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-comments me-3"></i>
+                                <p>comments</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted">
+                                <i class="fas fa-share me-3"></i>
+                                <p>share</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted mt-3">
+                                <p>View Previous Comments</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center rounded text-muted mt-3">
+                                <p>Most Relevent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                
+              </div>
+                <!--chat bar-->
+            <div class="col-12 col-lg-3">
+
+                <div class="d-none d-xxl-block h-100 fixed-top overflow-hidden scrollbar"style="max-width:360px;
+                width:100%;z-index: 4;padding-top:56px;left:initial; !important">
+                <div class="p-3 mt-4 ">
+                    <h5 class="text-muted">Your Pages and profiles</h5>
+                </div>  
+                <li class="dropdown-item p-1 rounded">
+                    <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                        <div class="p-2 rounded">
+                            <img src="https://picsum.photos/200/300"
+                            class="rounded-circle" 
+                            alt="avatar"style="width:38px;height:38px;object-fit:cover">
+                        </div>
+                        <div>
+                            <p class="m-0">Programees kerala</p>
+                        </div>
+                    </a>
+                </li>
+                <div class="p-3 text-muted d-flex"> 
+                <i data-visualcompletion="css-img" class="hu5pjgll m6k467ps" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/9pd3UnpdCzT.png');background-position:0 -38px;background-size:38px 258px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i> 
+                <p class="ps-3">Switch into page</p>
+                </div>
+                <div class="ps-3 text-muted d-flex"> 
+                    <i data-visualcompletion="css-img" class="hu5pjgll m6k467ps" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/9pd3UnpdCzT.png');background-position:0 -170px;background-size:38px 258px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                    <p class="ps-3">Create Promotion</p>
+                    </div>
+                    <hr>
+                    <div class="ps-3 mt-4 ">
+                        <h6 class="text-muted">Birthdays</h6>
+                    </div>
+                    <li class="dropdown-item p-1 rounded">
+                        <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+                            <div class="p-2 rounded">
+                                <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height:36px;width:36px;background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/9pd3UnpdCzT.png');background-position:0 0;background-size:38px 258px;background-repeat:no-repeat;display:inline-block"></i>
+                            </div>
+                            <div>
+                                <p class="m-0">5 friends have Birthday today</p>
+                            </div>
+                        </a>
+                    </li>
+                    <hr>
+                    <div class="ps-3 mt-4 d-flex">
+                        <h6 class="text-muted">contacts</h6>
+                        <div aria-label="New room" class="ps-5 oajrlxb2 gs1a9yip mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 rq0escxv nhd2j8a9 mg4g778l pfnyh3mw p7hjln8o tgvbjcpo hpfvmrgz i1ao9s8h esuyzwwr f1sip0of du4w35lb n00je7tq arfg74bv qs9ysxi8 k77z8yql btwxx1t3 abiwlrkh p8dawk7l lzcic4wl dwo3fsh8 g5ia77u1 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 pq6dq46d kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 pzggbiyp pkj7ub1o bqnlxs5p kkg9azqs c24pa1uk ln9iyx3p fe6kdd0r ar1oviwq l10q8mi9 sq40qgkc s8quxz6p pdjglbur" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh gl3lb2sf hhz5lgdu"><g fill-rule="evenodd" transform="translate(-448 -544)">
+                            <path d="M457.25 552.5H455v2.25a.75.75 0 0 1-1.5 0v-2.25h-2.25a.75.75 0 0 1 0-1.5h2.25v-2.25a.75.75 0 0 1 1.5 0V551h2.25a.75.75 0 0 1 0 1.5m6.38-4.435a.62.62 0 0 0-.64.047l-2.49 1.634v-1.394a1.854 1.854 0 0 0-1.852-1.852l-8.796.002a1.854 1.854 0 0 0-1.851 1.852v6.793c0 1.021.83 1.852 1.852 1.852l1.147-.002h7.648a1.854 1.854 0 0 0 1.852-1.851v-1.392l2.457 1.61a.641.641 0 0 0 .673.071.663.663 0 0 0 .37-.601v-6.167c0-.26-.142-.49-.37-.602"></path></g></svg><div class="i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3 s45kfl79 emlxlaya bkmhp75w spb7xbtv" data-visualcompletion="ignore" style="bottom:-8px;left:-8px;right:-8px;top:-8px"></div></div>
+                            <div aria-label="Search for a name or group" class="ps-5 oajrlxb2 gs1a9yip mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 rq0escxv nhd2j8a9 mg4g778l pfnyh3mw p7hjln8o tgvbjcpo hpfvmrgz i1ao9s8h esuyzwwr f1sip0of du4w35lb n00je7tq arfg74bv qs9ysxi8 k77z8yql btwxx1t3 abiwlrkh p8dawk7l lzcic4wl dwo3fsh8 g5ia77u1 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 pq6dq46d kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 pzggbiyp pkj7ub1o bqnlxs5p kkg9azqs c24pa1uk ln9iyx3p fe6kdd0r ar1oviwq l10q8mi9 sq40qgkc s8quxz6p pdjglbur" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh gl3lb2sf hhz5lgdu"><g fill-rule="evenodd" transform="translate(-448 -544)">
+                                <g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg><div class="i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3 s45kfl79 emlxlaya bkmhp75w spb7xbtv" data-visualcompletion="ignore" style="bottom:-8px;left:-8px;right:-8px;top:-8px"></div></div>
+                                <div aria-label="Options" class="ps-5 oajrlxb2 gs1a9yip mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 rq0escxv nhd2j8a9 mg4g778l pfnyh3mw p7hjln8o tgvbjcpo hpfvmrgz i1ao9s8h esuyzwwr f1sip0of du4w35lb n00je7tq arfg74bv qs9ysxi8 k77z8yql btwxx1t3 abiwlrkh p8dawk7l lzcic4wl dwo3fsh8 g5ia77u1 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 pq6dq46d kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 pzggbiyp pkj7ub1o bqnlxs5p kkg9azqs c24pa1uk ln9iyx3p fe6kdd0r ar1oviwq l10q8mi9 sq40qgkc s8quxz6p pdjglbur" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 20 20" width="1em" height="1em" class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 py1f6qlh jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg><div class="i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3 s45kfl79 emlxlaya bkmhp75w spb7xbtv" data-visualcompletion="ignore" style="bottom:-8px;left:-8px;right:-8px;top:-8px"></div></div>
+                            </div>
+                            <!--friend 1-->
+                            <li class="dropdown-item rounded my-2 px-0" type="button">
+                                <!--avatar-->
+                                <div class="d-flex align-items-center mx-2">
+                                    <div class="position-relative">
+                                        <img src="https://picsum.photos/id/237/200/300" alt="avatar"class="rounded-circle me-2"style="width:38px;height:38px;object-fit:cover;">
+                                        <span class="position-absolute bottom-0 rounded-circle translate-middle bg-success p-1"style="left:75%;"></span>
+                                    </div>
+                                    <p class="m-0">Vishak Omanakuttan</p>
+                                </div>
+                            </li>
+                               <!--friend 2-->
+                               <li class="dropdown-item rounded my-2 px-0" type="button">
+                                <!--avatar-->
+                                <div class="d-flex align-items-center mx-2">
+                                    <div class="position-relative">
+                                        <img src="https://picsum.photos/id/237/200/300" alt="avatar"class="rounded-circle me-2"style="width:38px;height:38px;object-fit:cover;">
+                                        <span class="position-absolute bottom-0 rounded-circle translate-middle bg-success p-1"style="left:75%;"></span>
+                                    </div>
+                                    <p class="m-0">Shahid Hussain</p>
+                                </div>
+                            </li>
+                               <!--friend 3-->
+                               <li class="dropdown-item rounded my-2 px-0" type="button">
+                                <!--avatar-->
+                                <div class="d-flex align-items-center mx-2">
+                                    <div class="position-relative">
+                                        <img src="https://picsum.photos/id/237/200/300" alt="avatar"class="rounded-circle me-2"style="width:38px;height:38px;object-fit:cover;">
+                                        <span class="position-absolute bottom-0 rounded-circle translate-middle bg-success p-1"style="left:75%;"></span>
+                                    </div>
+                                    <p class="m-0">Akhil Pattazhy</p>
+                                </div>
+                            </li>
+                               <!--friend 4-->
+                            <li class="dropdown-item rounded my-2 px-0" type="button">
+                                <!--avatar-->
+                                <div class="d-flex align-items-center mx-2">
+                                    <div class="position-relative">
+                                        <img src="https://picsum.photos/id/237/200/300" alt="avatar"class="rounded-circle me-2"style="width:38px;height:38px;object-fit:cover;">
+                                        <span class="position-absolute bottom-0 rounded-circle translate-middle bg-success p-1"style="left:75%;"></span>
+                                    </div>
+                                    <p class="m-0">Amal Raj</p>
+                                </div>
+                            </li>
+            </div>
+        </div>
+    </div>
+  <!-- JavaScript Bundle with Popper -->  
+<script
+
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
+</body>
+</html>

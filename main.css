@@ -1,0 +1,25 @@
+.f-0{
+    font-size: 4rem;
+}
+.f-7{
+    font-size: 0.8rem;
+}
+.bg-grey{
+    background-color: #f0f2f5;
+}
+.nav__btn button:hover{
+    background: #f0f2f5;
+}
+.nav__btn button:hover i{
+    color: #0d6efd !important;
+}
+.nav__btn-active i{
+    color: #0d6efd !important;
+}
+.Pl-7{
+    padding-left: 15px;
+}
+.story:hover{
+    opacity: .8;
+    
+}
